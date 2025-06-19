@@ -1,0 +1,157 @@
+  <!DOCTYPE html>
+  <html lang="pt-BR">
+  <head>
+    <link rel="shortcut icon" href="assets/MT.png" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manual Techno</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="#home" class="logo">Manual Techno</a>
+      <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <h1>Montagem e Manutenção de Computadores</h1>
+      <p>Soluções técnicas de alto nível, com foco no essencial. Minimalismo e eficiência na palma da sua mão.</p>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p>Na <strong>ManualTech</strong>, transformamos tecnologia em solução. Somos uma empresa especializada em <strong>montagem e manutenção de computadores</strong>, com foco em serviços técnicos precisos, eficientes e personalizados.</p>
+      
+      <p>💡 <strong>Nossa missão</strong> é simples: <em>resolver problemas e entregar performance</em>. Atuamos com transparência e excelência, desde a montagem de PCs sob medida até diagnósticos e reparos completos.</p>
+      
+      <p>🛠️ Com uma equipe apaixonada por tecnologia, garantimos que seus equipamentos não apenas funcionem — mas rendam o máximo.</p>
+      
+      <p>💻 Seja para <strong>otimizar seu setup</strong>, realizar <strong>manutenções preventivas ou corretivas</strong>, ou receber <strong>orientação especializada em hardware</strong>, a ManualTech está pronta para elevar sua experiência tecnológica.</p>
+    </section>
+    
+
+    <section id="servicos">
+      <h2>O que fazemos</h2>
+      <div class="servicos-cards estilo-icone-grande">
+        <div class="servico-card">
+          <div class="icon">🔧</div>
+          <h3>Montagem de PCs sob medida</h3>
+          <p>Criamos máquinas personalizadas, pensadas para o seu uso e orçamento.</p>
+        </div>
+        <div class="servico-card">
+          <div class="icon">🛠️</div>
+          <h3>Manutenção preventiva e corretiva</h3>
+          <p>Identificamos falhas e mantemos seu sistema sempre otimizado.</p>
+        </div>
+        <div class="servico-card">
+          <div class="icon">💽</div>
+          <h3>Formatação e reinstalação</h3>
+          <p>Sistema limpo, rápido e funcional como novo.</p>
+        </div>
+        <div class="servico-card">
+          <div class="icon">🚀</div>
+          <h3>Otimização de desempenho</h3>
+          <p>Melhoramos a velocidade e eficiência do seu computador.</p>
+        </div>
+        <div class="servico-card">
+          <div class="icon">📊</div>
+          <h3>Consultoria em upgrades</h3>
+          <p>Te orientamos sobre os melhores componentes para o seu setup.</p>
+        </div>
+        <div class="servico-card">
+          <div class="icon">🧹</div>
+          <h3>Limpeza física e interna</h3>
+          <p>Remoção de sujeiras, poeira e reorganização para melhor refrigeração.</p>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="projetos">
+      <h2>Trabalhos Realizados</h2>
+      <p class="subtitulo">Veja alguns dos serviços que executamos com precisão e cuidado técnico.</p>
+      
+      <div class="projetos-grid">
+        <div class="projeto-card" data-projeto="gamer">
+          <img src="assets/projeto1.jpg" alt="Montagem de PC Gamer" />
+          <div class="overlay">
+            <h3>PC Gamer sob medida</h3>
+            <p>Montagem personalizada com foco em desempenho e estética.</p>
+          </div>
+        </div>
+        <div class="projeto-card" data-projeto="limpeza">
+          <img src="assets/projeto2_3.png" alt="Limpeza" />
+          <div class="overlay">
+            <h3>Limpeza completa</h3>
+            <p>Antes e depois de uma limpeza física com troca de pasta térmica.</p>
+          </div>
+        </div>
+        <!-- Outros cards aqui -->
+      </div>
+    </section>
+    
+<!-- Modal -->
+<div id="modal">
+  <button id="modal-close" aria-label="Fechar modal">×</button>
+
+  <div id="modal-content">
+    <!-- O JS vai inserir aqui a imagem/vídeo e o texto -->
+  </div>
+
+  <button id="modal-prev" aria-label="Anterior">&lt;</button>
+  <button id="modal-next" aria-label="Próximo">&gt;</button>
+</div>
+
+<section id="contato" class="contato-faixa">
+  <div class="contato-container">
+    <p>Precisa de ajuda ou orçamento? Fale conosco pelo WhatsApp!</p>
+    <a href="https://wa.me/553588111990" target="_blank" rel="noopener" class="btn-whatsapp">
+      <img src="assets/icons8-whatsapp-48.png" alt="WhatsApp" /> Falar Agora
+    </a>
+  </div>
+</section>
+
+
+<footer>
+  <div class="footer-container">
+    <div class="footer-logo-slogan">
+      <h2>Manual Techno</h2>
+      <p>Minimalismo em Tecnologia.</p>
+    </div>
+    <div class="footer-links">
+      <h3>Links Rápidos</h3>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h3>Contato</h3>
+      <p>📞 (35) 988111-1990</p>
+      <p>📧 contato@manualtechno.com</p>
+      <p>Machado - MG</p>
+    </div>
+    <div class="footer-social">
+      <h3>Siga-nos</h3>
+      <a href="https://www.instagram.com/manualtechno/" aria-label="Instagram" target="_blank"><img src="assets/instagram.svg" alt="Instagram"></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    &copy; 2025 Manual Techno. Todos os direitos reservados.
+  </div>
+</footer>
+
+  </body>
+  </html>
