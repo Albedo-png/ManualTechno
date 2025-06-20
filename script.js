@@ -158,9 +158,9 @@ document.addEventListener('DOMContentLoaded', () => {
       titulo: 'Limpeza completa',
       descricao: 'Antes e depois de uma limpeza física com troca de pasta térmica.',
       midias: [
-        { type: 'image', src: 'assets/projeto1.jpg' },
         { type: 'image', src: 'assets/projeto2_3.png' },
-        { type: 'image', src: 'assets/limpeza_depois.jpg' }
+        { type: 'video', src: 'assets/videosetup.mp4' },
+        { type: 'image', src: 'assets/setupim.jpg' }
       ]
     }
     // Adicione mais projetos conforme necessário
